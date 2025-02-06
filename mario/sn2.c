@@ -15,14 +15,14 @@ int main(void)
      {
         for (int h = n - k; h > 0; h--)
         printf(" ");
-        for(int h = 0; h <= k; h++){
+        for(int h = 0; h <= k; h++)
             printf("#");
         printf(" ");
     for(int h = 0; h < k; h++)
         printf("#");
         printf("\n");
 
-        }
+
    }
 
 }
