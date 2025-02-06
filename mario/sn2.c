@@ -19,10 +19,8 @@ int main(void)
             printf("#");
         printf(" ");
     for(int h = 0; h <= k; h++)
-
         printf("#");
-
-  printf("\n");
+     printf("\n");
       }
-     
+
 }
