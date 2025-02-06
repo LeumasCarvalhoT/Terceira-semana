@@ -17,6 +17,9 @@ int main(void)
         printf(" ");
         for(int h = 0; h <= k; h++)
             printf("#");
+            printf(" ");
+            for(int h = 0; h <= k; h++)
+            printf("#");
         printf("\n");
 
 
