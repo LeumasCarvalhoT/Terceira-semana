@@ -13,4 +13,6 @@ int main (void)
         cartao /= 10;
         cartao++;
     }
+
+    
 }
