@@ -16,5 +16,5 @@ int main (void)
 
     int primeiros_d = cartao / pow (10, digitos - 2);
 
-    
+
 }
