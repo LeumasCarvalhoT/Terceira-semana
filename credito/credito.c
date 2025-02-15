@@ -14,5 +14,5 @@ int main (void)
         cartao++;
     }
 
-    int primeiros.d = cartao / pow10, digitos - 2
+    int primeiros_d = cartao / pow 10, digitos - 2
 }
