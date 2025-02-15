@@ -14,5 +14,5 @@ int main (void)
         cartao++;
     }
 
-    
+    int primeiros.d 
 }
