@@ -22,8 +22,8 @@ printf("\n");
     } while (populaçao_Final < 10);
 printf("\n");
 
-int anos_precisos = 0
 
+int anos_precisos = 0;
 
 int populaçao_Atual= = 0;
 while (populaçao_Atual < populaçao_Final)
