@@ -24,10 +24,9 @@ printf("\n");
 
 
 int anos_precisos = 0;
-
-int populaçao_Atual= = 0;
+int populaçao_Atual;
 while (populaçao_Atual < populaçao_Final)
 {
-
+ 
 }
 }
