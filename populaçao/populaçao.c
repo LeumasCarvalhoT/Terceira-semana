@@ -4,8 +4,9 @@
 
 int main (void)
 {
-    int populaçao_Atual = get_int ("Digite sua população atual de ilhamas: \n");
-    int populaçao_Final = get_int ("Agora sua população final: \n");
+    int populaçao_Atual = get_int ("Digite sua população atual de ilhamas:");
+    printf("\n");
+    int populaçao_Final = get_int ("Agora sua população final:");
 
-    
+    while (populaçao_Atual < 9)
 }
