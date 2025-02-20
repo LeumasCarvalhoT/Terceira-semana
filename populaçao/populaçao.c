@@ -11,7 +11,7 @@ int main (void)
         populaçao_Atual = get_int ("Digite sua população atual de ilhamas:");
 
 
-    } while (populaçao_Atual < 9)
+    } while (populaçao_Atual < 9);
 printf("\n");
 
     int populaçao_Final = get_int ("Agora sua população final:");
