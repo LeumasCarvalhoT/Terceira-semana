@@ -31,6 +31,5 @@ if(populaçao_Atual < populaçao_Final)
     int num_p = populaçao_Atual + (populaçao_Atual / 3) - (populaçao_Atual / 4);
     anos_precisos++;
 }
-printf("Anos necessários para o aumento:\n");
 
 }
