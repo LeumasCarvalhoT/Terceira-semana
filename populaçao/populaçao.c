@@ -20,7 +20,7 @@ printf("\n");
     {
         populaçao_Final = get_int ("Agora sua população final de:");
 
-    } while (populaçao_Final < populaçao_Atual);
+    } while (populaçao_Final <= populaçao_Atual);
 printf("\n");
 
 
