@@ -9,8 +9,10 @@ int main (void)
     do
     {
         populaçao_Atual = get_int ("Digite sua população atual de ilhamas:");
-       printf("\n");
+
+
     } while (populaçao_Atual < 9)
+printf("\n");
 
     int populaçao_Final = get_int ("Agora sua população final:");
 
