@@ -5,7 +5,7 @@
 int main (void)
 {
 
-   t populaçao_Atual;
+    int populaçao_Atual;
     do
     {
         populaçao_Atual = get_int ("Digite sua população atual de ilhamas:");
@@ -13,7 +13,7 @@ int main (void)
     } while (populaçao_Atual < 9);
 printf("\n");
 
-int 
+
 
     int populaçao_Final;
     do
@@ -25,10 +25,10 @@ printf("\n");
 
 
 int anos_precisos = 0;
-int populaçao_Atual;
+
 if(populaçao_Atual < populaçao_Final)
 {
-    populaçao_Atual = populaçao_Atual + (populaçao_Atual / 3) - (populaçao_Atual / 4);
+    int num_p = populaçao_Atual + (populaçao_Atual / 3) - (populaçao_Atual / 4);
     anos_precisos++;
 }
 printf("Anos necessários para o aumento:\n");
