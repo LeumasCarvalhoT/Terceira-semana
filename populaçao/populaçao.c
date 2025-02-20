@@ -25,7 +25,7 @@ printf("\n");
 
 int anos_precisos = 0;
 int populaçao_Atual;
-while (populaçao_Atual < populaçao_Final)
+if(populaçao_Atual < populaçao_Final)
 {
     populaçao_Atual = populaçao_Atual + (populaçao_Atual / 3) - (populaçao_Atual / 4);
     anos_precisos++;
