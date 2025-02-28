@@ -31,6 +31,7 @@ int tempo = anos(populaçao_Atual,populaçao_Final);
 
 int anos (int populaçao_Atual, int populaçao_Final)
 {
+
 int anos_precisos = 0;
 while (populaçao_Atual < populaçao_Final)
 {
@@ -39,4 +40,5 @@ while (populaçao_Atual < populaçao_Final)
 }
 printf("Anos necessários para o aumento:%i \n",anos_precisos);
 return anos_precisos;
+
 }
