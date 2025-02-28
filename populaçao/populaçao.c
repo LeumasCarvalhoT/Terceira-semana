@@ -33,7 +33,7 @@ if ( populaçao_Atual == populaçao_Final )
 else
 {
    int num_p = populaçao_Atual + (populaçao_Atual / 3) - (populaçao_Atual / 4);
-   int anos_precisos++;
+    anos_precisos++;
 
 } while (populaçao_Atual < populaçao_Final);
 
