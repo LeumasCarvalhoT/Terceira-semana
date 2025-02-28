@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 
-int anos(int populaçao_Atual, int populaçao_Final);
+
 
 int main (void)
 {
@@ -23,14 +23,6 @@ printf("\n");
     } while (populaçao_Final < populaçao_Atual);
 printf("\n");
 
-int tempo = anos(populaçao_Atual,populaçao_Final);
-
-}
-
-
-int anos (int populaçao_Atual, int populaçao_Final)
-{
-
 
 
 if ( populaçao_Atual == populaçao_Final )
@@ -46,6 +38,6 @@ else
 
 printf("Anos necessários para o aumento:%i \n", anos_precisos);
 
-return anos_precisos;
+return ;
 
 }
