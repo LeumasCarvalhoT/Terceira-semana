@@ -35,7 +35,7 @@ if (populaçao_Atual == populaçao_Final)
 else
 { do
     {
-    populaçao_Atual + (populaçao_Atual / 3) - (populaçao_Atual / 4);
+    populaçao_Atual = (populaçao_Atual + populaçao_Atual / 3) - (populaçao_Atual / 4);
     anos_precisos++;
     }while (populaçao_Atual < populaçao_Final );
     printf("Anos necessários para o aumento:%i \n", anos_precisos);
