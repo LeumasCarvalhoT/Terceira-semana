@@ -19,16 +19,17 @@ printf("\n");
     int populaçao_Final;
     do
     {
-        populaçao_Final = get_int ("Agora sua população final de:");
-    } while (populaçao_Final < populaçao_Atual);
+        populaçao_Final = get_int ("Agora sua população final de ilhamas:");
+    } while (populaçao_Final <= populaçao_Atual);
 printf("\n");
 
 
 
 int anos_precisos = 0;
-do
-
 {
+    do
+
+
    int num_p = populaçao_Atual + (populaçao_Atual / 3) - (populaçao_Atual / 4);
     anos_precisos++;
 
