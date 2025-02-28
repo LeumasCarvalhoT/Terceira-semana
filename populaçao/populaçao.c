@@ -34,7 +34,7 @@ int anos (int populaçao_Atual, int populaçao_Final)
 
 int anos_precisos = 0;
 
-for (anos_precisos = 0; populaçao_Atual <= populaçao_Final; anos_precisos++);
+if 
 {
    int num_p = populaçao_Atual + ((populaçao_Atual / 3) - (populaçao_Atual / 4));
 }
