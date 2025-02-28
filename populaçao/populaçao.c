@@ -34,13 +34,13 @@ int anos (int populaçao_Atual, int populaçao_Final)
 
 int anos_precisos = 0;
 do
-
- while (populaçao_Atual <= populaçao_Final)
 {
    int num_p = populaçao_Atual + ((populaçao_Atual / 3) - (populaçao_Atual / 4));
    anos_precisos++;
-}
+} while (populaçao_Atual <= populaçao_Final);
+
 printf("Anos necessários para o aumento:%i \n",anos_precisos);
+
 return anos_precisos;
 
 }
