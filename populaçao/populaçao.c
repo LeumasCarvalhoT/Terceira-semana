@@ -36,8 +36,9 @@ int anos_precisos = 0;
 
 if ( populaçao_Atual < populaçao_Atual )
 {
+    
    int num_p = populaçao_Atual + ((populaçao_Atual / 3) - (populaçao_Atual / 4));
-   
+
 }
 
 printf("Anos necessários para o aumento:%i \n",anos_precisos);
