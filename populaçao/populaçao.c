@@ -7,7 +7,7 @@ int anos(int populaçao_Atual, int populaçao_Final);
 
 int main (void)
 {
-    
+
 
     int populaçao_Atual;
     do
@@ -32,7 +32,7 @@ int tempo = anos(populaçao_Atual,populaçao_Final);
 int anos (int populaçao_Atual, int populaçao_Final)
 {
 int anos_precisos = 0;
-if (populaçao_Atual < populaçao_Final)
+while (populaçao_Atual < populaçao_Final)
 {
    int num_p = populaçao_Atual + ((populaçao_Atual / 3) - (populaçao_Atual / 4));
    anos_precisos++;
