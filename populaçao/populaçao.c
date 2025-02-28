@@ -23,7 +23,7 @@ printf("\n");
     } while (populaçao_Final < populaçao_Atual);
 printf("\n");
 
-
+int anos_precisos = 0;
 
 if ( populaçao_Atual == populaçao_Final )
 {
@@ -39,6 +39,6 @@ else
 
 printf("Anos necessários para o aumento:%i \n", anos_precisos);
 
-return ;
+
 
 }
