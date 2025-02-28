@@ -23,15 +23,17 @@ printf("\n");
     } while (populaçao_Final < populaçao_Atual);
 printf("\n");
 
-int anos_precisos = 0;
+
 
 if ( populaçao_Atual == populaçao_Final )
 {
 
 }
 
+int anos_precisos = 0;
 else
 {
+    anos_precisos
    int num_p = populaçao_Atual + (populaçao_Atual / 3) - (populaçao_Atual / 4);
     anos_precisos++;
 
