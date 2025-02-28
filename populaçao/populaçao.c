@@ -34,5 +34,5 @@ if (populaçao_Atual < populaçao_Final)
    anos_precisos++;
 }
 printf("Anos necessários para o aumento:%i \n",anos_precisos);
-return
+return anos_precisos;
 }
