@@ -7,7 +7,8 @@ int anos(int populaçao_Atual, int populaçao_Final);
 
 int main (void)
 {
-    int anos (populaçao_Atual,populaçao_Final);
+    
+
     int populaçao_Atual;
     do
     {
@@ -23,6 +24,7 @@ printf("\n");
     } while (populaçao_Final <= populaçao_Atual);
 printf("\n");
 
+int tempo = anos(populaçao_Atual,populaçao_Final);
 
 }
 
