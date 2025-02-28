@@ -2,17 +2,19 @@
 #include <math.h>
 #include <stdio.h>
 
+
+int anos (int populaçao_Atual, int populaçao_Final);
+
 int main (void)
 {
-    int anos (int populaçao_Atual, int populaçao_Final);
+
+    
     int populaçao_Atual;
     do
     {
         populaçao_Atual = get_int ("Digite sua população atual de ilhamas:");
     } while (populaçao_Atual < 9);
 printf("\n");
-
-
 
     int populaçao_Final;
     do
@@ -22,6 +24,7 @@ printf("\n");
     } while (populaçao_Final <= populaçao_Atual);
 printf("\n");
 
+int anos (int populaçao_Atual, int populaçao_Final);
 }
 
 
