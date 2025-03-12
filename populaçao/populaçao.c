@@ -13,6 +13,8 @@ int main(void)
     while (populaçao_Atual < 9);
     printf("\n");
 
+
+
     int populaçao_Final;
     do
     {
@@ -22,14 +24,6 @@ int main(void)
     printf("\n");
 
     int anos_precisos = 0;
-
-    if (populaçao_Atual == populaçao_Final)
-    {
-        printf("anos precisos; 0 \n");
-    }
-
-    else
-    {
         do
         {
             populaçao_Atual = populaçao_Atual + (populaçao_Atual / 3) - (populaçao_Atual / 4);
@@ -37,5 +31,5 @@ int main(void)
         }
         while (populaçao_Atual < populaçao_Final);
         printf("Anos necessários para o aumento:%i \n", anos_precisos);
-    }
+
 }
