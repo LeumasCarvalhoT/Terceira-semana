@@ -9,7 +9,7 @@ int notas[total];
 
 int i = 0;
 
- for ( i < total; i++)
+ for (i < total; i++)
   {
     notas[i] = get_int ("Nota: ");
   }
