@@ -13,6 +13,6 @@ int notas[total];
     notas[i] = get_int ("Nota: ");
     }
 
-  printf ("Sua média é: %f\n",  (notas[0] + notas[1] + notas[2]) / total);
+  printf ("Sua média é: %f\n",  (notas[0] + notas[1] + notas[2]) / (float) total);
 
 }
