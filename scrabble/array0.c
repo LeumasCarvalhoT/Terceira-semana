@@ -1,18 +1,21 @@
 #include <cs50.h>
 #include <stdio.h>
 
-const int total = 3;
+const int total = 3.0;
 
 int main(void)
 {
 int notas[total];
- for (int i = 0; i < total; i++);
+
+int i = 0;
+
+ for ( i; i < total; i++);
   {
     notas[i] = get_int ("Nota: ");
   }
 
-  int x = notas[];
+  int x = notas[i];
 
-  printf ("Sua média é: %f\n", x / notas[total]);
+  printf ("Sua média é: %f\n", x / total);
 
 }
