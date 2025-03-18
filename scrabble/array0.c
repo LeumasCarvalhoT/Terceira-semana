@@ -13,6 +13,6 @@ int notas[total];
 
   int x = notas[i];
 
-  printf ("Sua média é: %i\n", x / notas[total]);
+  printf ("Sua média é: %f\n", x / notas[total]);
 
 }
