@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-const int total = 3
+const int total = 3;
 
 int main(void)
 {
@@ -11,7 +11,8 @@ int notas[total];
     notas[i] = get_int ("Nota: ");
   }
 
-  
-  printf ("Sua média é: %i\n", )
+  int x = notas[i];
+
+  printf ("Sua média é: %i\n", x / notas[total]);
 
 }
