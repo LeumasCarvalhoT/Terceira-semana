@@ -8,6 +8,10 @@ int main(void)
 int notas[total];
  for (int i = 0; i < total; i++);
   {
-    notas[i]
+    notas[i] = get_int ("Nota: ");
   }
+
+  
+  printf ("Sua média é: %i\n", )
+
 }
