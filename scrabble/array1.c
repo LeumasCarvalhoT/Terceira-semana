@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-
+float média (int n, int p[]);
 
 int main(void)
 {
@@ -15,14 +15,14 @@ int notas[provas];
     notas[i] = get_int ("Nota: ");
     }
 
-  printf ("Sua média é: %f\n",  (notas[0] + notas[1] + notas[2]) / (float) provas);
+  printf ("Sua média é: %f\n", média (provas, notas));
 
    }
 
    float média (int n, int p[])
 {
    int soma = 0;
-   for (k = 0; k < n; k++)
+   for (int k = 0; k < n; k++)
    {
       soma = soma + n[k];
    }
