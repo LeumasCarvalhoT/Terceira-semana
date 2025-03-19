@@ -5,7 +5,7 @@ float média (int n, int p[]);
 
 int main(void)
 {
-   int provas = get_int ("Quantas provas você fez?: ");
+
 
 int notas[provas];
 
