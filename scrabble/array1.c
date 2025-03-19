@@ -1,11 +1,14 @@
 #include <cs50.h>
 #include <stdio.h>
 
+
+
 float média (int n, int p[]);
 
 int main(void)
 {
-int provas = 3;
+
+int provas = get_int ("Quantas provas fez?: ");
 
 int notas[provas];
 
