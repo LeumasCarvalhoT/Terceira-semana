@@ -17,4 +17,6 @@ int notas[provas];
 
   printf ("Sua média é: %f\n",  (notas[0] + notas[1] + notas[2]) / (float) provas);
 
-}
+   }
+
+   float média (int n, int p[])
