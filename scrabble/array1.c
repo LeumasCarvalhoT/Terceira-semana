@@ -24,7 +24,7 @@ int notas[provas];
    int soma = 0;
    for (int k = 0; k < n; k++)
    {
-      soma = soma + n[k];
+      soma = soma + p[k];
    }
 
    return soma / (float) n;
