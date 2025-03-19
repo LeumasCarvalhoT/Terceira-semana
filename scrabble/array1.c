@@ -20,3 +20,13 @@ int notas[provas];
    }
 
    float média (int n, int p[])
+{
+   int soma = 0;
+   for (k = 0; k < n; k++)
+   {
+      soma = soma + n[k];
+   }
+
+   return soma / (float) n;
+
+}
