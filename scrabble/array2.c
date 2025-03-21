@@ -4,5 +4,6 @@
 
 int main (void)
 {
-    string p = get_int ("Digite sua palavra: ")
+    string p = get_string ("Digite sua palavra: ");
+    printf ("")
 }
