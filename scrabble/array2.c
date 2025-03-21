@@ -9,6 +9,7 @@ int main (void)
     printf ("Resultado: ");
 
     for (int i = 0, n = strlen(p); i < n; i++)
+    
     {
             printf ("%c", toupper(p[i]));
     }
