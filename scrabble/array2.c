@@ -10,14 +10,7 @@ int main (void)
 
     for (int i = 0, n = strlen(p); i < n; i++)
     {
-        if (islower(p[i]))
-        {
             printf ("%c", toupper(p[i]));
-        }
-        else
-        {
-            printf("%c", (p[i]));
-        }
     }
     printf("\n");
 }
