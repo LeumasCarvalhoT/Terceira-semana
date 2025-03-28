@@ -28,3 +28,6 @@ else if (pontuação1 == pontuação2)
   printf("Empate!\n");
 }
 }
+
+
+int
