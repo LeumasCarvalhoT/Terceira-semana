@@ -33,5 +33,7 @@ else if (pontuação1 == pontuação2)
 int pc_pontuação (string palavra)
 {
   int pontuação = 0;
-  
+
+ int letras = strlen(palavra);
+ for (i = 0; i < letras; i++)
 }
