@@ -17,6 +17,7 @@ string palavra2 = get_string ("Jogador 2: ");
 int pontuação1 = pc_pontuação(palavra1);
 int pontuação2 = pc_pontuação(palavra2);
 
+
 if (pontuação1 > pontuação2)
 {
   printf("Jogador 1 venceu!\n");
@@ -29,6 +30,9 @@ else if (pontuação1 == pontuação2)
 {
   printf("Empate!\n");
 }
+
+printf("Pontos totais do jogador 1%i\n", pontuação1);
+printf("Pontos totais do jogador 2%i\n", pontuação2);
 }
 
 
