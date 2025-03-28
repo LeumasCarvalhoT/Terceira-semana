@@ -39,11 +39,11 @@ int pc_pontuação (string palavra)
  int letras = strlen(palavra);
  for (int i = 0; i < letras; i++)
  {
-  if (isupper(palavra1[i]))
+  if (isupper(palavra[i]))
   {
     pontuação += pontos[palavra[i] - 'A'];
   }
-  else if (islower(palavra1[i]))
+  else if (islower(palavra[i]))
   {
     {
       pontuação += pontos[palavra[i] - 'a'];
