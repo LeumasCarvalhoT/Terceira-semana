@@ -36,4 +36,8 @@ int pc_pontuação (string palavra)
 
  int letras = strlen(palavra);
  for (i = 0; i < letras; i++)
+ {
+  if (isupper (palavra1[i]))
+  
+ }
 }
