@@ -17,14 +17,14 @@ int pontuação2 = pc_pontuação (palavra2);
 
 if (pontuação1 > pontuação2)
 {
-  printf("Jogador 1 venceu!");
+  printf("Jogador 1 venceu!\n");
 }
 else if (pontuação1 < pontuação2)
 {
-  printf("Jogador 2 venceu!");
+  printf("Jogador 2 venceu!\n");
 }
 else if (pontuação1 == pontuação2)
 {
-  printf("Empate!");
+  printf("Empate!\n");
 }
 }
