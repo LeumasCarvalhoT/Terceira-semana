@@ -5,5 +5,5 @@
 
 int main (void)
 {
-  int pontos[] = {1}
+  int pontos[] = {1, 3, 3, 2, }
 }
