@@ -5,6 +5,8 @@
 
 int pontos[] = {1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10};
 
+int pc_pontuação (string palavra);
+
 int main (void)
 {
   printf ("Digitem suas palavras.\n");
@@ -35,9 +37,18 @@ int pc_pontuação (string palavra)
   int pontuação = 0;
 
  int letras = strlen(palavra);
- for (i = 0; i < letras; i++)
+ for (int i = 0; i < letras; i++)
  {
   if (isupper (palavra1[i]))
-  
+  {
+    pontuação += pontos[palavra[i] - 'A'];
+  }
+  else if (islower (palavra1[i]))
+  {
+    {
+      pontuação += pontos[palavra[i] - 'a'];
+    }
+  }
  }
+ return pontuação;
 }
