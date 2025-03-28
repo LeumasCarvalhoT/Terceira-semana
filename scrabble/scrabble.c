@@ -11,8 +11,8 @@ int main (void)
 {
   printf ("Digitem suas palavras.\n");
 
-string palavra1 = get_string ("Jogador 1: \n");
-string palavra2 = get_string ("Jogador 2: \n");
+string palavra1 = get_string ("Jogador 1: ");
+string palavra2 = get_string ("Jogador 2: ");
 
 int pontuação1 = pc_pontuação(palavra1);
 int pontuação2 = pc_pontuação(palavra2);
