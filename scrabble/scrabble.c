@@ -12,8 +12,8 @@ int main (void)
 string palavra1 = get_string ("Jogador 1: \n");
 string palavra2 = get_string ("Jogador 2: \n");
 
-int pontuação1 = pc_pontuação (palavra1);
-int pontuação2 = pc_pontuação (palavra2);
+int pontuação1 = pc_pontuação(palavra1);
+int pontuação2 = pc_pontuação(palavra2);
 
 if (pontuação1 > pontuação2)
 {
@@ -30,4 +30,8 @@ else if (pontuação1 == pontuação2)
 }
 
 
-int
+int pc_pontuação (string palavra)
+{
+  int pontuação = 0;
+  
+}
