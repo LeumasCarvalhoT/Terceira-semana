@@ -31,7 +31,7 @@ else if (pontuação1 == pontuação2)
   printf("Empate!\n");
 }
 
-printf("Pontos totais do jogador 1%i\n", pontos[palavra1]);
+printf("Pontos totais do jogador 1%i\n", pontos[palavra1[i]]);
 printf("Pontos totais do jogador 2%i\n", pontuação2);
 }
 
