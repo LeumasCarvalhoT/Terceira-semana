@@ -37,10 +37,10 @@ float = S ((float) sentenças / palavras) * 100;
 
    if(indice >= 16)
    {
-    printf("Grade %i\n", indice);
+    printf("Grade 16+\n")
    }
    else if(indice < 1)
    {
-    printf("Grade 16+ %i\n", indice);
+    printf("ante\n");
    }
  }
