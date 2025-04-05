@@ -17,6 +17,7 @@ printf ("\n");
     while (escrita[n] != '\0')
     {
         int caracteres = tolower(escrita[n]);
+        printf("%i\n", caracteres);
         if(caracteres == 32)
         {
         palavras++;
@@ -31,7 +32,7 @@ printf ("\n");
         }
         n++;
     }
-printf("%i\n", escrita[n]);
+
 printf("Quantidade de letras: %i\n", letras);
 printf("Quantidade de palavras: %i\n", palavras);
 printf("Quantidade de sentenças: %i\n", sentenças);
