@@ -30,4 +30,10 @@ int main(void)
         }
         n++;
     }
+
+float = L ((float) letras / palavras) * 100;
+float = S ((float) sentenças / palavras) * 100;
+    indice = 0.0588 * L - 0.296 * S - 15.8
+
+   if(indice >=16)
  }
