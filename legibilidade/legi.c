@@ -8,7 +8,7 @@ int main(void)
     string escrita = get_string ("Escreva seu texto: ")
 
     int letras = 0;
-    int palavras = 0;
+    int palavras = 1;
     int sentenças = 0;
 
     int n = 0;
@@ -28,5 +28,6 @@ int main(void)
         {
             sentenças++;
         }
+        n++;
     }
  }
