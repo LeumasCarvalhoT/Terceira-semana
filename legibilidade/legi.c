@@ -6,6 +6,7 @@
 int main(void)
 {
     string escrita = get_string ("Escreva seu texto: ");
+printf ("\n");
 
     int letras = 0;
     int palavras = 1;
@@ -30,6 +31,9 @@ int main(void)
         }
         n++;
     }
+printf("Quantidade de letras: %i\n", letras);
+printf("Quantidade de palavras: %i\n", palavras);
+printf("Quantidade de sentenças: %i\n", sentenças);
 
 float L =((float) letras / palavras) * 100;
 float S = ((float) sentenças / palavras) * 100;
@@ -38,7 +42,7 @@ float S = ((float) sentenças / palavras) * 100;
 
    if(indice >= 16)
    {
-    printf("16º+ grau.\n\n");
+    printf("16º+ grau.\n");
    }
    else if(indice < 1)
    {
