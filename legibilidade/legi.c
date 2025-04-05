@@ -17,7 +17,6 @@ printf ("\n");
     while (escrita[n] != '\0')
     {
         int caracteres = tolower(escrita[n]);
-        printf("%i\n", caracteres);
         if(caracteres == 32)
         {
         palavras++;
