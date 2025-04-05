@@ -24,5 +24,9 @@ int main(void)
         {
             letras++;
         }
+        else if (caracteres == '!' || caracteres == '?' || caracteres == '.')
+        {
+            sentenças++;
+        }
     }
  }
