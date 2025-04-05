@@ -5,7 +5,7 @@
 
 int main(void)
 {
-    string escrita = get_string ("Escreva seu texto: ")
+    string escrita = get_string ("Escreva seu texto: ");
 
     int letras = 0;
     int palavras = 1;
@@ -31,16 +31,21 @@ int main(void)
         n++;
     }
 
-float = L ((float) letras / palavras) * 100;
-float = S ((float) sentenças / palavras) * 100;
-    indice = 0.0588 * L - 0.296 * S - 15.8
+float L =((float) letras / palavras) * 100;
+float S = ((float) sentenças / palavras) * 100;
+
+    int indice = 0.0588 * L - 0.296 * S - 15.8;
 
    if(indice >= 16)
    {
-    printf("Grade 16+\n")
+    printf("16º+ grau.\n");
    }
    else if(indice < 1)
    {
-    printf("ante\n");
+    printf("Antes do 1º grau.\n");
+   }
+   else
+   {
+    printf("Grau %iº.\n", indice);
    }
  }
