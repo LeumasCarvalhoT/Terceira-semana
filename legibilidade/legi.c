@@ -42,7 +42,7 @@ float S = ((float) sentenças / palavras) * 100;
 
    if(indice >= 16)
    {
-    printf("16º+ grau.\n");
+    printf("Texto de 16º+ grau.\n");
    }
    else if(indice < 1)
    {
@@ -50,6 +50,6 @@ float S = ((float) sentenças / palavras) * 100;
    }
    else
    {
-    printf("Grau %iº.\n", indice);
+    printf("Testo de %iº grau.\n", indice);
    }
  }
