@@ -5,5 +5,5 @@
 
 int main(void)
 {
-    string  =
-}
+    string escrita = get_string ("Escreva seu texto: ")
+ }
