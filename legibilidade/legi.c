@@ -31,7 +31,7 @@ printf ("\n");
         }
         n++;
     }
-printf("%s\n", escrita);
+printf("%i\n", caracteres);
 printf("Quantidade de letras: %i\n", letras);
 printf("Quantidade de palavras: %i\n", palavras);
 printf("Quantidade de sentenças: %i\n", sentenças);
