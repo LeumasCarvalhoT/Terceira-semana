@@ -9,6 +9,7 @@ int main(int argc, string argv[])
     if (argc != 2)
     {
         printf ("Use ./subs key\n");
+        return 1;
     }
 
     string key = argv[1];
@@ -21,13 +22,14 @@ int main(int argc, string argv[])
         }
     }
 
+
     if(strlen(key) != 26)
     {
         printf("key precisa de pelo menos 26 caracteres.\n");
         return 1;
     }
 
-    
+
     for(int j = 0; j < strlen(key); j++)
     {
         for(int f = j + 1; f < strlen(key); f++)
