@@ -1,6 +1,6 @@
-sort1 uses: TODO
+sort1 uses: selection
 
-How do you know?: TODO
+How do you know?: É o que mais demorou ao organizar o arquivo maior embaralhado
 
 sort2 uses: TODO
 
