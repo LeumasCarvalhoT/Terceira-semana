@@ -9,3 +9,4 @@ How do you know?: Foi o mais rápido ao organizar o maior arquivo embaralhado
 sort3 uses: bubble
 
 How do you know?: Como foi o que restou, presumo que seja o bubble, além de ter sido um pouco mais lento
+
